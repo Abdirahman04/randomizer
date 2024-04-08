@@ -8,7 +8,7 @@ import (
 func GetChar() string {
   chars := [26]string{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"}
 
-  return chars[rand.Intn(25)]
+  return chars[rand.Intn(26)]
 }
 
 func RandomStringLower(ln int) string {
